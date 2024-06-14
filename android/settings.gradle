@@ -1,0 +1,12 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS) /// I think you need to know what this mode means.
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+}
+rootProject.name = 'capsule'
